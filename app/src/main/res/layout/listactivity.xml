@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f2f2f2"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/asda"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <RelativeLayout
+                    android:id="@+id/mens"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="#000000"
+                    >
+
+                    <ImageView
+                        android:id="@+id/mealv"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:alpha="0.3"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/restaurant" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_centerInParent="true"
+                        android:text="Restaurent"
+
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/tifin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000">
+
+                    <ImageView
+                        android:id="@+id/biry"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:alpha="0.3"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vegi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_centerInParent="true"
+                        android:text="Grocery Shops"
+
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/vriseb"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000">
+
+                    <ImageView
+                        android:id="@+id/vrise"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:alpha="0.3"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hosp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_centerInParent="true"
+                        android:text="Hospitals"
+
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/vriseb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000">
+
+                    <ImageView
+                        android:id="@+id/vrise1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:alpha="0.3"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vegi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_centerInParent="true"
+                        android:text="Bakerry"
+
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/vriseb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000">
+
+                    <ImageView
+                        android:id="@+id/vrise2"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:alpha="0.3"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pet" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_centerInParent="true"
+                        android:text="Pet Store"
+
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
